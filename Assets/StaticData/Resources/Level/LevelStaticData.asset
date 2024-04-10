@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f061c01caba73ec4ba55b0ca18b53312, type: 3}
+  m_Name: LevelStaticData
+  m_EditorClassIdentifier: 
+  EnemySpawnData:
+    Configs:
+    - _inspectorName: LightBandit
+      <Id>k__BackingField: 2
+    - _inspectorName: HeavyBandit
+      <Id>k__BackingField: 1
+    <Positions>k__BackingField:
+    - {x: -9.43, y: -4, z: 0}
+    - {x: 8.88, y: -4, z: 0}
+    <DelaySpawn>k__BackingField: 3
+  <PlayerInitialPoint>k__BackingField: {x: -0.08, y: -3.861}
